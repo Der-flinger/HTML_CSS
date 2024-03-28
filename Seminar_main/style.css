@@ -1,11 +1,22 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body {
     background-color: #020a18;
 }
+.center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
 .top {
     padding-bottom: 99px;
 }
@@ -14,6 +25,27 @@ body {
     padding-top: 39px;
     padding-bottom: 39px;
 }
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__panel {
+    padding: 20px 40px;
+    color: #fff;
+    /* color: var(--ffffff, #fff); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav__panel:hover {
+    color: #3a68b8;
+}
+
 .top__content {
     margin-top: 160px;
     margin-bottom: 197px;
@@ -22,21 +54,63 @@ body {
 .subtitle {
     margin-bottom: 10px;
     color: #3a68b8;
+    /* color: var(--ffffff, #fff); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8 px */
+    text-transform: uppercase;
 }
 .title {
     margin-bottom: 40px;
     color: #fff;
+    /* color: var(--ffffff, #fff); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 71.5 px */
 }
 
 .text {
     color: #fff;
+    /* color: var(--ffffff, #fff); */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8 px */
+    opacity: 0.7;
 }
 
 .top__buttons {
     margin-top: 50px;
 }
 
-.button {
+.main-button {
     color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     background-color: #3a68b8;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.button-1 {
+    margin-right: 20px;
+}
+.button-img {
+    margin-right: 10px;
+}
+
+.main-button:hover {
+    color: #3a68b8;
+    background-color: white;
+    border: 1px solid #3a68b8;
 }
