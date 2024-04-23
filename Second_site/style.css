@@ -685,6 +685,11 @@ a {
   background-color: #fff;
   border: 1px solid #a4a4a4;
   padding: 16px 40px;
+  cursor: pointer;
+}
+.cart__button_box:hover {
+  color: #fff;
+  background-color: #f16d7f;
 }
 .cart-adress__heading {
   font-size: 16px;
@@ -773,6 +778,10 @@ a {
   color: #fff;
   border: 0px solid transparent;
   background-color: #f16d7f;
+  cursor: pointer;
+}
+.cart-price__button:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 1600px) {
